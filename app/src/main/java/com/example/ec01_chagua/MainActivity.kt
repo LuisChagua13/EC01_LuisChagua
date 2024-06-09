@@ -27,8 +27,7 @@ class MainActivity : ComponentActivity() {
                 ) {
                     Column(modifier = Modifier.padding(16.dp)) {
                         Ejercicio1.Companion.MostrarResultadoEstacionamiento(horas = 3, minutos = 30)
-
-
+                        Ejercicio2.Companion.MostrarResultadoPromedio(nota1 = 15.0, nota2 = 18.0, nota3 = 20.0, nota4 = 17.0)
                     }
                 }
             }
@@ -47,6 +46,8 @@ private fun GreetingPreview() {
         ) {
             Column(modifier = Modifier.padding(16.dp)) {
                 Ejercicio1.Companion.MostrarResultadoEstacionamiento(horas = 3, minutos = 30)
+                Ejercicio2.Companion.MostrarResultadoPromedio(nota1 = 15.0, nota2 = 18.0, nota3 = 20.0, nota4 = 17.0)
+
             }
         }
     }
